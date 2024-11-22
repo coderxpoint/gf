@@ -1,0 +1,13 @@
+.footer{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    font-size: 12px;
+    gap: 20px;
+    margin-top: 28rem;
+    
+    @media screen and (max-width: 600px) {
+        margin-top: 30rem; // Adjusted margin for phone screens
+    }
+
+}
